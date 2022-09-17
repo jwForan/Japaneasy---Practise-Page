@@ -1,0 +1,15 @@
+
+
+h1 {
+    font-family: 'Caveat', cursive;
+    color: rgb(236, 46, 8);
+}
+
+navigation {
+    display: grid;
+    grid-template-columns: 6em 7em 6em 6em 6em;
+    grid-template-rows: 12px 12px 12px;
+    justify-content: end;
+    justify-items: center;
+    font-size: 2em;
+}
