@@ -2,7 +2,11 @@
 
 h1 {
     font-family: 'Caveat', cursive;
+    font-size: 4em;
     color: rgb(236, 46, 8);
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-left: 50px;
 }
 
 navigation {
@@ -11,5 +15,18 @@ navigation {
     grid-template-rows: 12px 12px 12px;
     justify-content: end;
     justify-items: center;
+    align-items: center;
     font-size: 2em;
+    font-family: 'Playfair Display', serif;
+}
+
+.slogan {
+    height: 750px;
+    background-image: url("./images/temple.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 6em;
+
 }
