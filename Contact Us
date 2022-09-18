@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <body>
+      <div>
+          <title>Contact Us</title>
+          <h1>How to contact us:</h1>
+          <p>If you wish to make an enquiry about learning Japanese with us, please fill out the form below and we will get back to you as soon as possible!</p>
+      </div>
+      <div>
+        <form>
+        <p>I would like to enquire about:</p>
+        <input type = "button 1" type="radio" value="Jobs">
+        <input type = "button 2" type="radio" value="Lessons">
+        <input type = "button 3" type="radio" value="Prices">
+        <input type = "button 2" type="radio" value="Location">
+        <input type = "button 2" type="radio" value="Availability">
+        <input type = "button 2" type="radio" value="Dates & Times">
+        <br>
+        <p>I have been learning Japanese for...years</p>
+        <p>Will this show?</p>
+        <input type = "range" name = "years" min ="0" max = "20+" step = "1"
+        <p>Are you a...</p>
+        <input list = "list">
+        <datalist id = "ide">
+          <option value = "current student"/>
+          <option value = "new student"/>
+          <option value = "just curious"/>
+        </datalist>
+        <p>Write your query here:</p>
+        <textarea rows="10" cols="30" name="comment"
