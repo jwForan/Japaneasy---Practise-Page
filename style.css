@@ -29,7 +29,7 @@ navigation {
     color: white;
     font-family: 'Caveat', cursive;
     font-size: 6em;
-    text-shadow: 1px 1px #5e5a5ac2;
+    text-shadow: 0.6px 0.6px #5e5a5ac2;
     margin: 0px;
     margin-top: 10px;
     text-align: center;
@@ -49,6 +49,17 @@ navigation {
     margin-left: 30%;
     margin-right: 30%;
     text-shadow: none;
+    transition-property: all;
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.button:hover {
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+    background-color: rgb(236, 46, 8);
 }
 
 h2 {
@@ -56,6 +67,7 @@ h2 {
     font-family: 'Playfair Display', serif;
     display: flex;
     justify-content: center;
+    font-size: 1.7em;
 }
 
 .offers {
