@@ -1,0 +1,192 @@
+
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 4.5em;
+    color: rgb(236, 46, 8);
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin: 20px 50px 0px 50px;
+}
+
+navigation {
+    display: grid;
+    grid-template-columns: 6em 7em 6em 6em 6em;
+    grid-template-rows: 12px 12px 12px;
+    justify-content: end;
+    justify-items: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-family: 'Playfair Display', serif;
+    margin: 0px 0px 10px 0px;
+}
+
+.home {
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+.home:hover {
+    text-decoration: underline;
+    color:rgb(236, 46, 8)
+}
+
+.dates {
+    text-decoration: none;
+    color: black;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+.dates:hover {
+    text-decoration: underline;
+    color:rgb(236, 46, 8)
+}
+
+.courses {
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+.courses:hover {
+    text-decoration: underline;
+    color:rgb(236, 46, 8)
+}
+
+.about {
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+
+}
+
+.about:hover {
+    text-decoration: underline;
+    color:rgb(236, 46, 8)
+}
+
+.contact {
+    text-decoration: none;
+    color: black;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+
+}
+
+.contact:hover {
+    text-decoration: underline;
+    color:rgb(236, 46, 8)
+}
+
+section {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(236, 46, 8);
+    border-radius: 25px;
+    font-family: 'Playfair Display', serif;
+    grid-template-areas: "img img";
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'Caveat', cursive;
+    margin-top: 0px;
+}
+
+.question {
+    font-size: 1.7rem;
+}
+
+img {
+    width: 70%;
+    border-radius: 25px;
+}
+
+.name {
+    border-radius: 25px;
+    height: 1.7em;
+    border-style: none;
+}
+
+.email {
+    border-radius: 25px;
+    height: 1.7em;
+    border-style: none;
+}
+
+form {
+    font-size: 1.3rem;
+}
+
+textarea {
+    border-radius: 18px;
+    border-style: none;
+}
+
+.send-button {
+    background-color: rgb(148, 19, 19);
+    color: white;
+    border-color:rgb(148, 19, 19);
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    height: 1.7em;
+    width: 3.1em;
+    padding-right: 0.3em;
+    border-radius: 25px;
+}
+
+footer {
+    font-family: 'Playfair Display', serif;
+    background-color: rgb(148, 19, 19);
+    color: white;
+    font-size: 1.2em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    line-height: 20px;
+    border-radius: 25px;
+    margin-top: 3em;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Caveat', cursive;
+    font-size: 1.7em;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+}
+
+address {
+    display: flex;
+    justify-content: center;
+    margin-top: 19.2px;
+    margin-bottom: 19.2px;
+}

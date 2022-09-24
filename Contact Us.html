@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contactStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">Japaneasy</h1>
+  </header>
+    <navigation class="navbar">
+      <a href="index.html" class="home">Home</a>
+      <a class="dates" href="Term Dates.html" target="_self">Term Dates</a>
+      <p class="courses">Courses</p>
+      <p class="about">About</p>
+      <a class="contact" href="Contact Us.html" target="_self">Contact</a>
+  </navigation> 
+  <section>
+      <div class="left">
+          <h2>Contact Us</h2>
+          <p class="question">Do you have a question? Write or Call!</p>
+          <img src="images/japaneseStockImage.jpg" alt="Japanese Man">
+      </div>
+      <div>
+        <form>
+        <p>Name:</p>
+        <input type="text" name="enquirer" class="name">
+        <p>Email:</p>
+        <input type="text" name="email" class="email" required>
+        <p>Course(s) of interest:</p>
+        <input type="radio" id="one" name="individual" value="Individual">
+        <label for="one">Individual</label>
+        <input type="radio" id="two" name="group" value="Broup">
+        <label for="two">Group</label>
+        <input type="radio" id="three" name="business" value="Business">
+        <label for="three">Business</label>
+        <input type="radio" id="four" name="online" value="Online">
+        <label for="four">Online</label>
+        <input type="radio" id="five" name="in-person" value="In-Person">
+        <label for="five">In-Person</label>
+        <br>
+        <p>Your query:</p>
+        <textarea rows="5" cols="75" name="comment" maxlength="250" required></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Send" class="send-button">
+      </form>
+    </div>
+    </section>
+    <footer>
+      <h3>Japaneasy</h3>
+      <p>Email: japaneasy@gmail.com</p>
+      <p>Phone: 313 053 956</p>
+      <address>
+          Japaneasy Language School,
+          1125 Tokyo Lane,
+          West Bromwich,
+          United Kingdom,
+          WB3 7AC
+      </address>
+  </footer>
+  </body>
+</html>
